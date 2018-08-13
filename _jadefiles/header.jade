@@ -1,12 +1,22 @@
-header
-    h1.logo University of Peradeniya 
+mixin nav-content()
+    ul 
+        li: a(href ="#home") Home
+        li: a(href ="#about") About
+        li: a(href ="#research") Research
+        li: a(href ="#people") People
+        li: a(href ="#facilities") Facilities
+        li: a(href ="#resources") Resources
+        li: a(href ="#teaching") Teaching
 
-    nav.site-nav
-        ul 
-            li: a(href ="#About") About
-            li: a(href ="#About") About
-            li: a(href ="#About") About
-            li: a(href ="#About") About
-            li: a(href ="#About") About
-            li: a(href ="#About") About
-            li: a(href ="#About") About
+.mobile-nav
+    +nav-content()
+
+header
+    .header-position
+        h1.logo University of Peradeniya 
+
+        nav.site-nav
+           +nav-content()
+        a(href = "email").emaillink +email
+
+        .mobile-nav-toggle: span
