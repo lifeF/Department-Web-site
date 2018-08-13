@@ -206,6 +206,8 @@ section.about {
   background-position: right bottom;
   background-size: cover;
   height: 10vw; }
+  section.about .col1 {
+    background: transparent; }
 
 .home-wrap {
   display: -ms-flexbox;
@@ -256,6 +258,11 @@ section.about {
 
 .push-right {
   margin-left: 330px; }
+
+.push-left {
+  position: top left;
+  margin-left: 20px;
+  max-width: 450px; }
 
 @media (max-width: 640px) {
   .home-section .flex.flex {
