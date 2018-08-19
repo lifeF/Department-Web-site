@@ -3,12 +3,14 @@ section.about
     //     image: url("/assets/img/header2.svg")
     //     position: right bottom
     //     size: cover
-    height: 10vw
+    height: 7vw
     z-index: -1
     border-bottom: 1px solid lightgray
-    background-color: darkred
-    p 
+    background-color: #002147
+
+    p
         color: lightgray
+
 .col12
     position: absolute
     background: transparent
@@ -21,16 +23,20 @@ section.about
     z-index: 200
 
 #HeaderName
-    line-height: -10px
-    top: 0px
-    color: white
-    z-index: 0
-
-.logo-header
     position: relative
+    +hide_text()
     background:
-        image: url("/assets/img/logo-university.svg")
-        position: right bottom
+        image: url("/assets/img/logo.png")
+        position: left top
         size: cover
-    width: 100px
-    height: 100px
+    width: 323px
+    height: 110px
+
+// .logo-header
+//     position: relative
+//     background:
+//         image: url("/assets/img/logo-university.svg")
+//         position: right bottom
+//         size: cover
+//     width: 100px
+//     height: 100px

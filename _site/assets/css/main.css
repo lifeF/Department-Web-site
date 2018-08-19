@@ -202,10 +202,10 @@ body {
             transform: translateY(0%); } }
 
 section.about {
-  height: 10vw;
+  height: 7vw;
   z-index: -1;
   border-bottom: 1px solid lightgray;
-  background-color: darkred; }
+  background-color: #002147; }
   section.about p {
     color: lightgray; }
 
@@ -221,18 +221,15 @@ section.about {
   z-index: 200; }
 
 #HeaderName {
-  line-height: -10px;
-  top: 0px;
-  color: white;
-  z-index: 0; }
-
-.logo-header {
   position: relative;
-  background-image: url("/assets/img/logo-university.svg");
-  background-position: right bottom;
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background-image: url("/assets/img/logo.png");
+  background-position: left top;
   background-size: cover;
-  width: 100px;
-  height: 100px; }
+  width: 323px;
+  height: 110px; }
 
 .home-wrap {
   display: -ms-flexbox;
