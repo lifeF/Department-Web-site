@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2; }
 
 p {
-  margin: 0 0 20px 0; }
+  margin: 0 0 0px 0; }
 
 em {
   font-style: italic; }
@@ -221,6 +221,8 @@ section.about {
   z-index: 200; }
 
 #HeaderName {
+  line-height: -10px;
+  top: 0px;
   color: white;
   z-index: 0; }
 
